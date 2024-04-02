@@ -17,12 +17,12 @@ const LoginForm: React.FC = () => {
 
   const onSubmit: SubmitHandler<LogInInputs> = (data) => {
     try {
-      localStorage.setItem("email", JSON.stringify(data.email));
-      //   render success indicator here
+      localStorage.setItem("email", JSON.stringify(data.email).toLowerCase());
+      //!   render success indicator here
       reset();
     } catch (error) {
       console.log("ERROR: Failed to save to local storage.");
-      //   render error indicator here
+      //!   render error indicator here
     }
   };
 
