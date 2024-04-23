@@ -1,11 +1,11 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import Box from "@mui/material/Box";
 import { useForm, SubmitHandler } from "react-hook-form";
 
-import FormButton from "./FormButton";
-import EmailInput from "./EmailInput";
-import { LogInInputs } from "../types/LoginInput";
-import PasswordInput from "./PasswordInput";
+import EmailInput from "../EmailInput";
+import { LogInInputs } from "../../types/LoginInput";
+import PasswordInput from "../PasswordInput";
+import "./LoginForm.css";
 
 const LoginForm: React.FC = () => {
   const {
@@ -29,21 +29,24 @@ const LoginForm: React.FC = () => {
   return (
     <Box
       component="form"
+      className="form"
       onSubmit={handleSubmit(onSubmit)}
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        gap: 3,
-        maxWidth: "320px",
-        margin: "0 auto",
-      }}
+      sx={{ gap: 1 }}
     >
-      <Typography variant="h5">Log in to your account</Typography>
-      <p>Fields with an asterisk (*) are required.</p>
       <EmailInput register={register} errors={errors} />
       <PasswordInput register={register} errors={errors} />
-      <a href="/">Forgot password?</a>
-      <FormButton label="Log In" type="submit" disabled={!isValid} />
+      <a
+        className="primary-link"
+        href="/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        Forgot password?
+      </a>
+      {/* <FormButton label="Log In" type="submit" disabled={!isValid} /> */}
+      <button className="button" type="submit" disabled={!isValid}>
+        {isValid ? "Sign In" : "Complete form"}
+      </button>
     </Box>
   );
 };

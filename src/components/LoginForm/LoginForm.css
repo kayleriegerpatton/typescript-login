@@ -1,0 +1,25 @@
+.form {
+  background-color: #151a23;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: solid 1px #282d35;
+  margin: 1.4rem auto 0;
+}
+
+.button {
+  display: block;
+  background-color: #1a6529; /*Meets WCAG AAA for contrast*/
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 600;
+  margin: 1.2rem auto 0px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.button:disabled {
+  background-color: #332127;
+  border: solid 1px #5f2a2d;
+}
