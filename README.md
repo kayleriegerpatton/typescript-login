@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [About](#about)
-  - [Criteria](#criteria)
+  - [Task Criteria](#task-criteria)
   - [Validations](#validations)
   - [Styles](#styles)
 - [Tools & Tech](#tools--tech)
@@ -14,7 +14,7 @@
 
 ## About
 
-### Criteria
+### Task Criteria
 
 This login page was first built as part of a technical assessment with the following criteria:
 
