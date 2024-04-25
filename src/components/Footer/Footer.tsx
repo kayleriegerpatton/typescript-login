@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <li className="footer-list-item">
           <a
             className="secondary-link"
-            href="/"
+            href="https://docs.github.com/site-policy/github-terms/github-terms-of-service"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
         </li>
         <li className="footer-list-item">
           <a
-            href="/"
+            href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement"
             target="_blank"
             rel="noreferrer noopener"
             className="secondary-link"
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
         </li>
         <li className="footer-list-item">
           <a
-            href="/"
+            href="https://docs.github.com/"
             target="_blank"
             rel="noreferrer noopener"
             className="secondary-link"
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
         </li>
         <li className="footer-list-item">
           <a
-            href="/"
+            href="https://support.github.com/"
             target="_blank"
             rel="noreferrer noopener"
             className="secondary-link"

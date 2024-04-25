@@ -37,7 +37,7 @@ const LoginForm: React.FC = () => {
       <PasswordInput register={register} errors={errors} />
       <a
         className="primary-link"
-        href="/"
+        href="https://github.com/password_reset"
         target="_blank"
         rel="noreferrer noopener"
       >
