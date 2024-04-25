@@ -73,6 +73,11 @@ Mine on the left and GitHub on the right:
 4. Re-styled links in lighter text color for enhanced contrast and with an underline in order to indicate their function by more than color (WCAG Success Criteria 1.4.1, 1.4.6; see [Technique G183](#https://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G183)).
 5. Altered the wrap style of the footer links.
 
+Bonuses:
+
+1. Because the button is disabled by default, I also designed the disabled button variant in a red tone with different label text (see [error state](#states) above).
+2. I completely changed the error state displays based on MUI's implementation and customized the helper text CSS for enhanced color contrast.
+
 ## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
