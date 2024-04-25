@@ -4,6 +4,6 @@ import App from "./App";
 
 test("renders form title", () => {
   render(<App />);
-  const linkElement = screen.getByText(/Log in/);
+  const linkElement = screen.getByText(/Sign in to GitHub/);
   expect(linkElement).toBeInTheDocument();
 });
