@@ -13,7 +13,9 @@
 - [Getting Started](#getting-started)
 
 ## About
+
 Check out the deployed version here: [https://typescript-login-kayleriegerpattons-projects.vercel.app/](https://typescript-login-kayleriegerpattons-projects.vercel.app/)
+
 ### Task Criteria
 
 This login page was first built as part of a technical assessment with the following criteria:
@@ -51,7 +53,7 @@ I made some additional changes for accessibility reasons and personal preference
 ![React Testing Library](https://img.shields.io/badge/-React%20Testing%20Library-E33332?logo=testinglibrary&logoColor=white)
 ![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?logo=eslint&logoColor=white)
 ![Font Awesome](https://img.shields.io/badge/-Font%20Awesome-528DD7?logo=fontawesome&logoColor=white)  
-Deployed with ![Vercel](https://img.shields.io/badge/-vercel-000000?logo=vercel&logoColor=white)
+Deployed with ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white)
 
 ## Images
 
