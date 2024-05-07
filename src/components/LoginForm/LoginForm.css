@@ -19,6 +19,11 @@
   width: 100%;
 }
 
+.button:hover {
+  background-color: #155321; /*Meets WCAG AAA for contrast*/
+  cursor: pointer;
+}
+
 .button:disabled {
   background-color: #332127;
   border: solid 1px #5f2a2d;
